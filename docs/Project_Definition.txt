@@ -1,0 +1,47 @@
+PROJE TANIMI / PROJECT DEFINITION
+================================
+Ders: YZM6301 - Yazılım Kalitesi
+Proje Adı: Sinema Bilet Rezervasyon Sistemi
+Belge Sürümü: 0.1 (Taslak)
+Durum: Planlama aşaması
+
+BELGEDE YER ALAN İSİMLER
+Revan Seiidov
+Fadıl Sebbağ
+Not: Projenin geliştirme çalışmaları Revan Seiidov tarafından yürütülecektir. İsimlerin listelenmesi, diğer kişinin geliştirme veya SQA faaliyetlerine katıldığı anlamına gelmez.
+
+KONU (SUBJECT)
+Python, Flask ve SQLite kullanılarak geliştirilecek küçük ölçekli, web tabanlı sinema bilet rezervasyon prototipi.
+
+PROJENİN AMACI (PROJECT AIM)
+Kullanıcıların filmleri ve seansları görüntülemesini, müsait koltukları seçmesini ve rezervasyon oluşturmasını sağlayan bir prototip geliştirmek. Yazılım geliştirme sürecinde gereksinim analizi, tasarım, test, hata takibi ve kalite güvence faaliyetlerini belgelemek.
+
+TEMEL İŞLEVLER (PLANLANAN)
+FR-01: Film listesini görüntüleme.
+FR-02: Seansları görüntüleme.
+FR-03: Seansa ait müsait/dolu koltukları görüntüleme.
+FR-04: Müsait koltuk için rezervasyon oluşturma ve onay kodu üretme.
+Opsiyonel: Rezervasyon iptali.
+
+ARAÇLAR (TOOLS)
+Python, Flask, SQLite, SQL, HTML, CSS, Git, GitHub, GitHub Issues/Projects, pytest (planlanan).
+
+PROJE İKONU (PROJECT ICON)
+Sinema bileti ve koltuk simgelerini birleştiren özgün ikon tasarımı planlanmaktadır. Nihai ikon henüz hazırlanmamıştır.
+
+VERİLER (ÖN TASARIM)
+movies, halls, seats, screenings, bookings tabloları planlanmaktadır. Aynı seans ve koltuk için ikinci aktif rezervasyon engellenecektir.
+
+KAPSAM DIŞI (OUT OF SCOPE)
+Gerçek ödeme altyapısı, gerçek sinema servisleriyle entegrasyon, üretim ortamında kullanıma hazır ticari sistem.
+
+KALİTE VE DOĞRULAMA
+Gereksinim incelemesi, kod incelemesi, otomatik testler, hata kayıtları, test raporları ve kalite metrikleri proje süresince hazırlanacaktır. Henüz test sonucu veya kalite başarımı iddia edilmemektedir.
+
+PROJE TAKİBİ
+8 haftalık DEV / DOC / SQA görevleri Kanban üzerinde takip edilecek; haftalık ekran görüntüleri ve ilerleme kanıtları saklanacaktır.
+
+SON ÇIKTILAR (PLANLANAN)
+Çalışan prototip, kaynak kod, test betikleri, Coding Standards, SRS, Design Document, Test Results, SQAP, STR, sürüm notları, hata kayıtları, kalite metrikleri ve sunum.
+
+Bu belge proje başlangıç tanımıdır; gereksinimler ve tasarım geliştirme sırasında sürüm kontrollü güncellenecektir.
