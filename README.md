@@ -4,7 +4,7 @@
 **Üniversite:** Beykoz Üniversitesi  
 **İsimler:** Revan Seiidov, Fadıl Sebbağ  
 **Geliştirme sorumlusu:** Revan Seiidov  
-**Durum:** Planlama / başlangıç (prototip henüz tamamlanmadı)
+**Durum:** Hafta 01 Flask başlangıç prototipi doğrulandı; rezervasyon işlevleri henüz geliştirilmedi.
 
 ## Proje Hakkında
 Bu proje, kullanıcıların filmleri ve seansları görüntüleyebileceği, uygun koltukları seçebileceği ve rezervasyon oluşturabileceği küçük ölçekli bir web uygulaması prototipidir.
@@ -38,8 +38,46 @@ sinema-bilet-rezervasyon-sistemi/
 └── README.md
 ```
 
-## Geliştirme Durumu
-Şu anda proje kurulumu ve belge planlaması sürmektedir. Uygulamanın çalıştırılma adımları ilk Flask sürümü tamamlandığında buraya eklenecektir.
+## Kurulum ve Çalıştırma (macOS / Linux)
+
+Python 3.9 veya üzeri ve Git gereklidir.
+
+```bash
+git clone https://github.com/revanseiidov-lab/sinema-bilet-rezervasyon-sistemi.git
+cd sinema-bilet-rezervasyon-sistemi
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
+python3 app.py
+```
+
+Tarayıcıda http://127.0.0.1:5000 adresini açın. Sunucuyu durdurmak için terminalde Control+C tuşlarına basın.
+
+Testleri çalıştırmak için:
+
+```bash
+python3 -m pytest -v
+```
+
+**Hafta 01 doğrulaması:** 05.11.2026 tarihinde macOS / Python 3.9.6 / pytest 8.4.2 ortamında iki test başarıyla çalıştırıldı (2 PASS, 0 FAIL). Bu sonuç sadece başlangıç ana sayfasını kapsar.
+
+- [Hafta 01 test raporu](docs/Test_Results_Week_01.md)
+- [Hafta 01 ekran görüntüleri](evidence/week-01/)
+
+## Mevcut Proje Yapısı
+
+```text
+app.py
+static/style.css
+templates/index.html
+tests/test_app.py
+docs/
+evidence/week-01/
+requirements.txt
+README.md
+```
+
+İleride veritabanı ve rezervasyon modülleri eklenecektir.
 
 ## SQA İlkesi
 Test sonuçları, hata kayıtları, kod incelemeleri ve kalite metrikleri ancak gerçekten uygulandığında ve kanıtları kaydedildiğinde raporlanacaktır. Haftalık Kanban ekran görüntüleri korunacaktır.
