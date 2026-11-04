@@ -15,7 +15,11 @@
 
 **Manuel doğrulama:** Flask geliştirme sunucusu `http://127.0.0.1:5000` üzerinde açıldı; ana sayfa Safari'de görüntülendi. Terminalde `GET /` için HTTP 200 gözlendi.
 
-**Kanıt durumu:** Kullanıcı terminal ve tarayıcı ekran görüntülerini sohbet içinde sağladı. Ekran görüntüleri henüz GitHub deposuna yüklenmedi. Görüntüler `evidence/week-01/` klasörüne yüklendiğinde bağlantıları burada eklenecektir.
+**Kanıt durumu:** Üç ekran görüntüsü GitHub deposuna yüklenmiştir (commit: [41fb212](https://github.com/revanseiidov-lab/sinema-bilet-rezervasyon-sistemi/commit/41fb2127c8af3cc987c735c29028b6693103acd3)).
+
+- [Kanban panosu](https://github.com/revanseiidov-lab/sinema-bilet-rezervasyon-sistemi/blob/main/evidence/week-01/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%E2%80%94%202026-11-05%20%D0%B2%2001.49.27.png)
+- [Flask ana sayfası](https://github.com/revanseiidov-lab/sinema-bilet-rezervasyon-sistemi/blob/main/evidence/week-01/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%E2%80%94%202026-11-05%20%D0%B2%2001.54.19.png)
+- [pytest terminal sonucu](https://github.com/revanseiidov-lab/sinema-bilet-rezervasyon-sistemi/blob/main/evidence/week-01/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%E2%80%94%202026-11-05%20%D0%B2%2002.03.29.png)
 
 **Sınırlamalar:** Bu sonuçlar yalnızca iki başlangıç testini kapsar. Kod kapsamı ölçülmedi. Rezervasyon, veritabanı ve güvenlik özellikleri henüz test edilmedi.
 
