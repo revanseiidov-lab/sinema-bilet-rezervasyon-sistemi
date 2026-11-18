@@ -1,0 +1,3 @@
+Ana sayfa: HTTP 200
+Film listesi: HTTP 200
+Film kartı sayısı: 6

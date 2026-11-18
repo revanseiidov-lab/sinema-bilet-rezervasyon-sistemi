@@ -2,8 +2,8 @@ PROJE TANIMI / PROJECT DEFINITION
 ================================
 Ders: YZM6301 - Yazılım Kalitesi
 Proje Adı: Sinema Bilet Rezervasyon Sistemi
-Belge Sürümü: 0.1 (Taslak)
-Durum: Planlama aşaması
+Belge Sürümü: 0.2 (Hafta 02)
+Durum: Flask ana sayfası ve SQLite film kataloğu doğrulandı.
 
 BELGEDE YER ALAN İSİMLER
 Revan Seiidov
@@ -36,7 +36,7 @@ KAPSAM DIŞI (OUT OF SCOPE)
 Gerçek ödeme altyapısı, gerçek sinema servisleriyle entegrasyon, üretim ortamında kullanıma hazır ticari sistem.
 
 KALİTE VE DOĞRULAMA
-Gereksinim incelemesi, kod incelemesi, otomatik testler, hata kayıtları, test raporları ve kalite metrikleri proje süresince hazırlanacaktır. Henüz test sonucu veya kalite başarımı iddia edilmemektedir.
+Gereksinim incelemesi, kod incelemesi, otomatik testler, hata kayıtları, test raporları ve kalite metrikleri proje süresince hazırlanacaktır. Hafta 01 ve Hafta 02 sonuçları ilgili test raporlarında kayıtlıdır.
 
 PROJE TAKİBİ
 8 haftalık DEV / DOC / SQA görevleri Kanban üzerinde takip edilecek; haftalık ekran görüntüleri ve ilerleme kanıtları saklanacaktır.

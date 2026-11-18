@@ -4,7 +4,7 @@
 **Üniversite:** Beykoz Üniversitesi  
 **İsimler:** Revan Seiidov, Fadıl Sebbağ  
 **Geliştirme sorumlusu:** Revan Seiidov  
-**Durum:** Hafta 01 Flask başlangıç prototipi doğrulandı; rezervasyon işlevleri henüz geliştirilmedi.
+**Durum:** Hafta 02: SQLite film kataloğu kullanılabilir. Seans ve rezervasyon sonraki haftalarda geliştirilecek.
 
 ## Proje Hakkında
 Bu proje, kullanıcıların filmleri ve seansları görüntüleyebileceği, uygun koltukları seçebileceği ve rezervasyon oluşturabileceği küçük ölçekli bir web uygulaması prototipidir.
@@ -48,10 +48,11 @@ cd sinema-bilet-rezervasyon-sistemi
 python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements.txt
-python3 app.py
+python3 -m flask --app app init-db
+python3 -m flask --app app run
 ```
 
-Tarayıcıda http://127.0.0.1:5000 adresini açın. Sunucuyu durdurmak için terminalde Control+C tuşlarına basın.
+Tarayıcıda http://127.0.0.1:5000 adresini açın ve **Filmleri Gör** bağlantısını seçin. Başlangıç komutu altı kurgusal film ekler. Yeniden çalıştırıldığında mevcut kayıtları değiştirmez veya çoğaltmaz. Yerel veritabanı `instance/cinema.sqlite3` dosyasında tutulur. Sunucuyu durdurmak için terminalde Control+C tuşlarına basın.
 
 Testleri çalıştırmak için:
 
@@ -68,16 +69,18 @@ python3 -m pytest -v
 
 ```text
 app.py
+db.py
+schema.sql
 static/style.css
-templates/index.html
-tests/test_app.py
+templates/
+tests/
 docs/
 evidence/week-01/
 requirements.txt
 README.md
 ```
 
-İleride veritabanı ve rezervasyon modülleri eklenecektir.
+Hafta 02 için [ilerleme raporu](docs/Weekly_Progress_Week_02.md), [test raporu](docs/Test_Results_Week_02.md) ve [kanıtlar](evidence/week-02/) mevcuttur.
 
 ## SQA İlkesi
 Test sonuçları, hata kayıtları, kod incelemeleri ve kalite metrikleri ancak gerçekten uygulandığında ve kanıtları kaydedildiğinde raporlanacaktır. Haftalık Kanban ekran görüntüleri korunacaktır.
