@@ -1,7 +1,9 @@
 # Hafta 02 İlerleme Raporu
 
-**Proje** Sinema Bilet Rezervasyon Sistemi  
-**Ders** YZM6301 Yazılım Kalitesi · Beykoz Üniversitesi  
+**Proje** Sinema Bilet Rezervasyon Sistemi
+
+**Ders** YZM6301 Yazılım Kalitesi · Beykoz Üniversitesi
+
 **Geliştirme ve doğrulama sorumlusu** Revan Seiidov
 
 - **DEV #3** SQLite `movies` tablosu, altı kurgusal film ve Türkçe `/filmler` sayfası hazır. `app.py`, `db.py`, `schema.sql`, iki HTML şablonu ve CSS güncellendi veya eklendi.

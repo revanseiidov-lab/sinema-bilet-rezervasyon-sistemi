@@ -1,8 +1,11 @@
 # Hafta 02 Test Sonuçları
 
-**Tarih** 18.11.2026  
-**Ortam** macOS, Python 3.9.6, pytest 8.4.2, pluggy 1.6.0  
-**Komut** `PYTHONDONTWRITEBYTECODE=1 ../.venv/bin/python -m pytest -p no:cacheprovider -v`  
+**Tarih** 18.11.2026
+
+**Ortam** macOS, Python 3.9.6, pytest 8.4.2, pluggy 1.6.0
+
+**Komut** `PYTHONDONTWRITEBYTECODE=1 ../.venv/bin/python -m pytest -p no:cacheprovider -v`
+
 **Sonuç** 16 PASS, 0 FAIL. Kod kapsamı ölçülmedi. Test veritabanları geçicidir.
 
 | Kimlik | Beklenen sonuç | Gözlenen sonuç | Durum |
