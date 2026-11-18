@@ -22,4 +22,4 @@
 
 FR-01, FR-06 ve NFR-01–03 için Hafta 02 kapsamındaki kontroller yürütüldü. Seans, koltuk ve rezervasyon testleri gelecek haftalara aittir. Sonuçlar macOS ortamında alınmıştır.
 
-[Katalog ekran görüntüsü](../evidence/week-02/film-listesi.jpg) · [HTTP doğrulaması](../evidence/week-02/http-check.txt) · [Pytest çıktısı](../evidence/week-02/pytest-results.txt) · [Hafta 01 raporu](Test_Results_Week_01.md) · [Hata kaydı](Defect_Log.md)
+[Katalog ekran görüntüsü](../evidence/week-02/film-listesi.jpg) · [HTTP doğrulaması](../evidence/week-02/http-check.txt) · [Terminal ekran görüntüsü](../evidence/week-02/pytest-results.png) · [Pytest çıktısı](../evidence/week-02/pytest-results.txt) · [Hafta 01 raporu](Test_Results_Week_01.md) · [Hata kaydı](Defect_Log.md)

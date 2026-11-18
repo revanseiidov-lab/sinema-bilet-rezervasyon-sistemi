@@ -6,4 +6,4 @@
 
 - [Güncellenmiş Kanban panosu](kanban-week-02.jpg) — #2 Done, #3 ve #6 In Progress.
 
-Terminal ekran görüntüsü henüz eklenmedi.
+- [Pytest terminal ekran görüntüsü](pytest-results.png) — 16 test 0,26 saniyede geçti.
