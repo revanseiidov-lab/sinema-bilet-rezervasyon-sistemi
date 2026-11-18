@@ -4,4 +4,6 @@
 - [Pytest çıktısı](pytest-results.txt) — 16 testin gerçek terminal çıktısı. Yalnızca yerel mutlak yollar kısaltıldı.
 - [HTTP doğrulaması](http-check.txt) — çalışan yerel sunucunun yanıtları ve film kartı sayısı.
 
-Terminal ekran görüntüsü ve güncellenmiş Kanban ekran görüntüsü henüz eklenmedi.
+- [Güncellenmiş Kanban panosu](kanban-week-02.jpg) — #2 Done, #3 ve #6 In Progress.
+
+Terminal ekran görüntüsü henüz eklenmedi.
