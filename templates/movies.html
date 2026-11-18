@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Film Listesi · Sinema Bilet Rezervasyon Sistemi</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="container catalog">
+    <a class="back-link" href="{{ url_for('home') }}">Ana Sayfa</a>
+    <h1>Film Listesi</h1>
+    {% if unavailable %}
+      <p class="notice" role="alert">Film listesi şu anda görüntülenemiyor. Lütfen daha sonra tekrar deneyin.</p>
+    {% elif films %}
+      <p>Katalog, gösterim amaçlı örnek film verileri içerir.</p>
+      <ul class="film-grid">
+        {% for film in films %}
+          <li class="film">
+            <h2>{{ film.title }}</h2>
+            <p class="film-details">{{ film.genre }} · {{ film.duration_minutes }} dk · {{ film.release_year }}</p>
+            <p>{{ film.description }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="notice">Henüz listelenecek film yok.</p>
+    {% endif %}
+  </main>
+</body>
+</html>

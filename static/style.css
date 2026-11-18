@@ -6,3 +6,30 @@ h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.12; }
 p { color: #c4cbd8; line-height: 1.6; }
 .notice { margin-top: 40px; border: 1px solid #354056; border-radius: 14px; padding: 22px; background: #182238; }
 .notice h2 { margin-top: 0; font-size: 1.2rem; }
+
+.button {
+  display: inline-block;
+  padding: 12px 18px;
+  border-radius: 8px;
+  background: #f6b85a;
+  color: #0d1423;
+  font-weight: 700;
+}
+.back-link { color: #f6b85a; }
+.catalog { max-width: 980px; margin: 5vh auto; }
+.film-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 16px;
+  margin: 28px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.film {
+  padding: 20px;
+  background: #182238;
+  border: 1px solid #354056;
+  border-radius: 14px;
+}
+.film h2 { margin-top: 0; font-size: 1.25rem; }
+.film-details { color: #f6b85a; }
